@@ -1,0 +1,11 @@
+file_format: "1"
+id: dactyl-man
+name: DactylMan 
+type: shield
+url: https://github.com/olemoi/dactyl-man/
+requires: [nice_nano_v2]
+features:
+  - keys
+siblings:
+  - dactyl_man_left 
+  - dactyl_man_right 
