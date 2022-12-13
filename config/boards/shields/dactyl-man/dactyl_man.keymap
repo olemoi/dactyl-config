@@ -5,7 +5,7 @@
 #define HOST_OS 2
 
 #include "../../../../zmk-nodefree-config/helper.h"
-#include "../../../../zmk-nodefree-config/international_chars/norwegian.dtsi"
+#include "../../../../zmk-nodefree-config/international_chars/danish.dtsi"
 
 #define DEFAULT 0
 #define CODE 1
@@ -41,9 +41,9 @@
         default_layer {
             bindings = <
                     &kp Q     &kp W    &kp E     &kp R     &kp T                                        &kp Y     &kp U     &kp I     &kp O     &kp P    
-                    &mt LALT A     &kp S    &mt LCTRL D     &lt NUM F     &kp G                         &kp H     &kp J     &kp K     &kp L     &no_oe 
+                    &mt LALT A     &kp S    &mt LCTRL D     &lt NUM F     &kp G                         &kp H     &kp J     &kp K     &kp L     &dk_oe 
                     &kp Z     &kp X    &kp C     &kp V     &kp B                                        &kp N     &kp M     &kp COMMA &kp DOT   &kp N1
-                              &kp N1   &kp N2                                                                               &no_aa    &no_ae
+                              &kp N1   &kp N2                                                                               &dk_aa    &dk_ae
                                                  &kp LGUI     &kp LSHIFT                                        &kp RET     &kp SPACE
                                                             &kp LALT     &mo NAV                  &mo MEDIA     &kp BSPC
                                                             &mo CODE   &kp N8                  &mo CODE   &kp N7
