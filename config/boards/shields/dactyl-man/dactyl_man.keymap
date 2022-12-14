@@ -55,7 +55,7 @@
                     &kp ESC     &trans    &trans     &kp EQUAL    &trans                                        &trans     &kp LEFT_PARENTHESIS     &kp RIGHT_PARENTHESIS     &kp LT        &kp GT 
                     &trans      &trans    &trans     &trans       &trans                                        &trans     &kp LEFT_BRACKET         &kp RIGHT_BRACKET         &trans        &trans
                                 &trans    &trans                                                                           &trans                   &trans
-                                                     &trans       &tran                                         &trans     &trans
+                                                     &trans       &trans                                        &trans     &trans
                                                                   &trans     &trans                  &trans     &trans
                                                                   &trans     &trans                  &trans     &trans
             >;
