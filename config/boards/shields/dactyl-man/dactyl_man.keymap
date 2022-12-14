@@ -51,7 +51,7 @@ gqt: global-quick-tap {
         default_layer {
             bindings = <
                     &kp NO_Q     &kp NO_W    &kp NO_E     &kp NO_R     &kp NO_T                                        &kp NO_Y     &kp NO_U     &kp NO_I     &kp NO_O     &kp NO_P    
-                    &mt LALT NO_A     &kp NO_S    &mt LCTRL NO_D     &lt NUM NO_F     &kp NO_G                         &kp NO_H     &kp NO_J     &kp NO_K     &kp NO_L     &mt CODE NO_O_SLASH 
+                    &kp NO_A     &gqt LALT NO_S    &gqt LCTRL NO_D     &lt NUM NO_F     &kp NO_G                         &kp NO_H     &kp NO_J     &kp NO_K     &kp NO_L     &mt CODE NO_O_SLASH 
                     &kp NO_Z     &kp NO_X    &kp NO_C     &kp NO_V     &kp NO_B                                        &kp NO_N     &kp NO_M     &kp NO_COMMA    &kp NO_DOT   &kp NO_AE 
                               &mo CODE    &mo CODE                                                                               &kp NO_AE   &kp NO_A_RING 
                                                  &kp LSHIFT     &kp LGUI                                        &kp SPACE    &kp RET 
