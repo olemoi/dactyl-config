@@ -67,7 +67,7 @@
                               &trans     &trans                                                                           &kp PG_UP     &kp PG_DN
                                                  &trans     &trans                                        &trans     &trans
                                                             &trans     &trans                  &trans     &trans
-                                                            &trans     &trans                  &trans     &trans
+                                                            &reset &bootloader                  &trans     &trans
             >;
         };
         media_layer {
