@@ -42,7 +42,7 @@
                     &kp Q     &kp W    &kp E     &kp R     &kp T                                        &kp Y     &kp U     &kp I     &kp O     &kp P    
                     &mt LALT A     &kp S    &mt LCTRL D     &lt NUM F     &kp G                         &kp H     &kp J     &kp K     &kp L     &kp NO_A_RING  
                     &kp Z     &kp X    &kp C     &kp V     &kp B                                        &kp N     &kp M     &kp COMMA &kp DOT   &kp NO_AE 
-                              &kp TAB   &kp ESC                                                                               &kp O   &NO_O_SLASH 
+                              &kp TAB   &kp ESC                                                                               &kp O   &kp NO_O_SLASH 
                                                  &kp LSHIFT     &kp LGUI                                        &kp SPACE    &kp RET 
                                                             &kp LALT     &mo NAV                  &mo MEDIA     &kp BSPC 
                                                             &mo CODE   &kp N8                  &mo CODE   &kp N7
