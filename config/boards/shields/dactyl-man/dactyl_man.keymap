@@ -25,6 +25,17 @@
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
         };
+
+gqt: global-quick-tap {
+       compatible = "zmk,behavior-hold-tap";
+       label = "GLOBAL_QUICK_TAP";
+      #binding-cells = <2>;
+       flavor = "tap-preferred";
+       tapping-term-ms = <200>;
+       quick-tap-ms = <125>;
+       global-quick-tap;
+       bindings = <&kp>, <&kp>;
+     };
     };
 
     keymap {
@@ -50,7 +61,7 @@
         };
         code_layer {
             bindings = <
-                    &kp NO_TAB     &kp F5    &kp F10    &kp F11      &kp F12                                       &trans     &kp NO_LEFT_BRACE           &kp NO_RIGHT_BRACE           &kp NO_TILDE     &kp NO_FSLH
+                    &kp NO_TAB     &kp F5    &kp F10    &kp F11      &kp F12                                       &trans     &kp NO_LBRC           &kp NO_RBRC           &kp NO_TILDE     &kp NO_FSLH
                     &kp ESC     &trans    &trans     &kp NO_EQUAL    &trans                                        &trans     &kp NO_LEFT_PARENTHESIS     &kp NO_RIGHT_PARENTHESIS     &kp NO_LT        &kp NO_GT 
                     &trans      &trans    &trans     &trans       &trans                                        &trans     &kp NO_LEFT_BRACKET         &kp NO_RIGHT_BRACKET         &trans        &trans
                                 &trans    &trans                                                                           &trans                   &trans
