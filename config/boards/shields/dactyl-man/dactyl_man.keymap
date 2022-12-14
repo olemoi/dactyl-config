@@ -61,7 +61,7 @@
         };
         nav_layer {
             bindings = <
-                    &trans     &trans    &trans     &trans     &trans                                 &trans     &trans   &kp UP     &trans      &trans
+                    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &trans     &trans                                 &trans     &trans   &kp UP     &trans      &bt BT_CLR
                     &kp ESC    &trans     &trans     &trans                                 &kp HOME     &kp LEFT    &kp DOWN     &kp RIGHT       &trans
                     &trans     &trans    &trans     &trans     &trans                                 &kp END     &trans    &trans      &trans     &trans
                               &trans     &trans                                                                           &kp PG_UP     &kp PG_DN
