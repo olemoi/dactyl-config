@@ -77,7 +77,7 @@ gqt: global-quick-tap {
                     &trans     &trans    &trans     &trans     &trans                                 &kp END     &trans    &trans      &trans     &trans
                               &trans     &trans                                                                           &kp PG_UP     &kp PG_DN
                                                  &trans     &trans                                        &trans     &trans
-                                                            &trans     &trans                  &trans     &trans
+                                                            &trans     &trans                  &trans     &kp DEL
                                                             &reset &bootloader                  &trans     &trans
             >;
         };
