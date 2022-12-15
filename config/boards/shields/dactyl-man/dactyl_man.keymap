@@ -54,8 +54,8 @@ gqt: global-quick-tap {
                     &lt CODE NO_A     &gqt LALT NO_S    &gqt LCTRL NO_D     &lt NUM NO_F     &lt NAV NO_G                         &kp NO_H     &kp NO_J     &kp NO_K     &kp NO_L     &lt CODE NO_O_SLASH 
                     &lt MEDIA NO_Z     &kp NO_X    &kp NO_C     &kp NO_V     &kp NO_B                                        &kp NO_N     &kp NO_M     &kp NO_COMMA    &kp NO_DOT   &kp NO_AE 
                               &mo CODE    &mo CODE                                                                               &kp NO_AE   &kp NO_A_RING 
-                                                 &mo NAV     &kp LGUI                                        &kp RET    &kp BSPC 
-                                                            &kp LSHIFT     &kp LALT                  &mo MEDIA     &kp SPACE 
+                                                 &mo NAV     &kp LGUI                                        &kp RET    &kp SPACE 
+                                                            &kp LSHIFT     &kp LALT                  &mo MEDIA     &kp BSPC 
                                                             &mo CODE   &kp N8                  &mo CODE   &kp N7
             >;
         };
