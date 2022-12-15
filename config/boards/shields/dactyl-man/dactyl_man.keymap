@@ -51,8 +51,8 @@ gqt: global-quick-tap {
         default_layer {
             bindings = <
                     &kp NO_Q     &kp NO_W    &kp NO_E     &kp NO_R     &kp NO_T                                        &kp NO_Y     &kp NO_U     &kp NO_I     &kp NO_O     &kp NO_P    
-                    &lt CODE NO_A     &gqt LALT NO_S    &gqt LCTRL NO_D     &lt NUM NO_F     &lt NAV NO_G                         &kp NO_H     &kp NO_J     &kp NO_K     &kp NO_L     &mt CODE NO_O_SLASH 
-                    &kp NO_Z     &kp NO_X    &kp NO_C     &kp NO_V     &kp NO_B                                        &kp NO_N     &kp NO_M     &kp NO_COMMA    &kp NO_DOT   &kp NO_AE 
+                    &lt CODE NO_A     &gqt LALT NO_S    &gqt LCTRL NO_D     &lt NUM NO_F     &lt NAV NO_G                         &mt NO_H     &lt CODE NO_J     &kp NO_K     &kp NO_L     &lt CODE NO_O_SLASH 
+                    &lt MEDIA NO_Z     &kp NO_X    &kp NO_C     &kp NO_V     &kp NO_B                                        &kp NO_N     &kp NO_M     &kp NO_COMMA    &kp NO_DOT   &kp NO_AE 
                               &mo CODE    &mo CODE                                                                               &kp NO_AE   &kp NO_A_RING 
                                                  &kp LSHIFT     &kp LGUI                                        &kp SPACE    &kp RET 
                                                             &kp LALT     &mo NAV                  &mo MEDIA     &kp BSPC 
@@ -62,8 +62,8 @@ gqt: global-quick-tap {
         code_layer {
             bindings = <
                     &kp NO_TAB     &kp F5    &kp F10    &kp F11      &kp F12                                       &trans     &kp NO_LBRC           &kp NO_RBRC           &kp NO_TILDE     &kp NO_FSLH
-                    &kp ESC     &trans    &trans     &kp NO_EQUAL    &trans                                        &trans     &kp NO_LEFT_PARENTHESIS     &kp NO_RIGHT_PARENTHESIS     &kp NO_LT        &kp NO_GT 
-                    &trans      &trans    &trans     &trans       &trans                                        &trans     &kp NO_LEFT_BRACKET         &kp NO_RIGHT_BRACKET         &kp NO_MINUS        &kp NO_UNDER
+                    &kp NO_GRAVE     &kp NO_ACUTE    &kp SINGLE_QUOTE     &kp NO_EQUAL    &trans                                        &trans     &kp NO_LEFT_PARENTHESIS     &kp NO_RIGHT_PARENTHESIS     &kp NO_LT        &kp NO_GT 
+                    &trans      &kp NO_MINUS    &kp NO_UNDER     &kp NO_PIPE       &kp NO_CARET                                        &trans     &kp NO_LEFT_BRACKET         &kp NO_RIGHT_BRACKET         &kp NO_MINUS        &kp NO_UNDER
                                 &trans    &trans                                                                           &trans                   &trans
                                                      &trans       &trans                                        &trans     &trans
                                                                   &trans     &trans                  &trans     &trans
