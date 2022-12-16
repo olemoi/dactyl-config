@@ -283,7 +283,7 @@
 #define NO_LT GRAVE
 #define NO_GT LS(NO_LT_NEW)
 
-#define NO_PIPE LA(NO_N7)
+#define NO_PIPE LA(N7)
 
 // #define NO_LBRC LS(RA(NO_8))
 // #define NO_RBRC LS(RA(NO_9))
