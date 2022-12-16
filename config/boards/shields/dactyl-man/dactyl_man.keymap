@@ -61,7 +61,7 @@ gqt: global-quick-tap {
         };
         code_layer {
             bindings = <
-                    &kp NO_TAB     &kp F5    &kp F10    &kp F11      &kp F12                                       &trans     &kp NO_LBRC           &kp NO_RBRC           &kp NO_TILDE     &kp NO_FSLH
+                    &kp NO_TAB     &kp F5    &kp F10    &kp F11      &kp F12                                       &trans     &kp LS(RA(N8))           &kp LS(RA(N9))           &kp NO_TILDE     &kp NO_FSLH
                     &kp NO_GRAVE     &kp NO_ACUTE    &kp NO_SQT     &kp NO_EQUAL    &trans                   &kp NO_AT_SIGN    &kp NO_LEFT_PARENTHESIS     &kp NO_RIGHT_PARENTHESIS     &kp NO_LT        &kp NO_GT 
                     &trans      &kp NO_MINUS    &kp NO_UNDER     &kp NO_PIPE       &kp NO_CARET                    &trans     &kp NO_LEFT_BRACKET         &kp NO_RIGHT_BRACKET         &kp NO_MINUS        &kp NO_UNDER
                                 &trans    &trans                                                                           &trans                   &trans
