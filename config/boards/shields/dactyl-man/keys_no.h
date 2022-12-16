@@ -280,12 +280,11 @@
 #define NO_AT_SIGN BACKSLASH
 #define NO_SQT LA(NO_AT_SIGN)
 
-#define NO_LT_NEW GRAVE
-#define NO_GT_NEW LS(NO_LT_NEW)
+#define NO_LT GRAVE
+#define NO_GT LS(NO_LT_NEW)
 
 #define NO_PIPE LA(NO_7)
 
-#define NO_LBRACE LA(LS(NO_8))
-#define NO_RBRACE LA(LS(NO_9))
-
+#define NO_LBRACE LS(LA(NO_8))
+#define NO_RBRACE LS(LA(NO_9))
 
