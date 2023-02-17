@@ -55,7 +55,7 @@ gqt: global-quick-tap {
                     &lt MEDIA NO_Z     &kp NO_X    &kp NO_C     &kp NO_V     &kp NO_B                                        &kp NO_N     &kp NO_M     &kp NO_COMMA    &kp NO_DOT   &kp NO_AE 
                               &mo CODE    &mo CODE                                                                               &kp NO_AE   &kp NO_A_RING 
                                                  &mo NAV     &kp LGUI                                        &kp RET    &kp SPACE 
-                                                            &kp LSHIFT     &kp LALT                  &mo MEDIA     &kp BSPC 
+                                                            &kp LSHIFT     &kp LALT                  &kp RSHIFT     &kp BSPC 
                                                             &mo CODE   &kp N8                  &mo CODE   &kp N7
             >;
         };
@@ -66,7 +66,7 @@ gqt: global-quick-tap {
                     &trans      &kp NO_MINUS    &kp NO_UNDER     &kp NO_PIPE       &kp NO_CARET                    &trans     &kp NO_LEFT_BRACKET         &kp NO_RIGHT_BRACKET         &kp NO_AMPS        &kp NO_UNDER
                                 &kp NO_ACUTE    &kp NO_AMPS                                                                           &kp NO_PLUS                   &trans
                                                      &trans       &trans                                        &trans     &trans
-                                                                  &trans     &trans                  &trans     &trans
+                                                                  &trans     &trans                  &trans     &kp RSHIFT
                                                                   &trans     &trans                  &trans     &trans
             >;
         };
