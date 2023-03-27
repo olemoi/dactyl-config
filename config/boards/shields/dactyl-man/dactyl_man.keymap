@@ -56,7 +56,7 @@ gqt: global-quick-tap {
                               &mo CODE    &mo CODE                                                                               &kp NO_AE   &kp NO_A_RING 
                                                  &mo NAV     &kp LGUI                                        &kp RET    &kp SPACE 
                                                             &kp LSHIFT     &kp LALT                  &kp RSHIFT     &kp BSPC 
-                                                            &mo CODE   &kp N8                  &mo CODE   &kp N7
+                                                            &mo CODE   &kp N8                  &mo CODE   &kp LCTRL 
             >;
         };
         code_layer {
